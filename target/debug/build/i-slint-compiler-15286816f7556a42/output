@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-compiler-1.5.1/widgets
+cargo:rustc-env=SLINT_WIDGETS_LIBRARY=/Users/levik/Downloads/kursach-template/target/debug/build/i-slint-compiler-15286816f7556a42/out/included_library.rs

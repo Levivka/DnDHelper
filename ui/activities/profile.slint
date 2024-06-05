@@ -1,0 +1,51 @@
+import { VerticalBox } from "std-widgets.slint";
+import { input } from "../components/input.slint";
+import { mainButtons } from "../components/button.slint";
+import { sidedown } from "../components/sidedown_menu.slint";
+import { textBox } from "../components/profile_text.slint";
+import { activity-pattern } from "../components/activity_pattern.slint";
+import { profileImage } from "../components/profile_image.slint";
+export component profileWindow inherits Window {
+    activity-pattern {
+        mainInfo := VerticalLayout {
+            width: root.width;
+            height: root.height;
+            spacing: 20px;
+            alignment: start;
+            // profileImage {
+            //     width: root.height * 30%;
+            //     height: root.height * 30%;
+            //     Image {
+            //         source: @image-url("../resources/book.svg");
+            //     }
+            // } // TODO
+
+            profileInfo := VerticalBox {
+                nickname := textBox {
+                    horizontal-alignment: center;
+                    text: "Levik";
+                    font-size: 32px;
+                }
+
+                id := textBox {
+                    horizontal-alignment: center;
+                    text: "12345";
+                    font-size: 18px;
+                }
+            }
+
+            stats := VerticalBox {
+                spacing: 40px;
+                Characters := textBox {
+                    text: "Characters:";
+                    font-size: 24px;
+                }
+
+                adventures := textBox {
+                    text: "Adventures:";
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

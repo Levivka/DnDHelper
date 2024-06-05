@@ -1,0 +1,10 @@
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/libi_slint_backend_qt-0f7ea39ce0247aea.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/accessible_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/key_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/README.md
+
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/libi_slint_backend_qt-0f7ea39ce0247aea.rlib: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/accessible_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/key_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/README.md
+
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/i_slint_backend_qt-0f7ea39ce0247aea.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/accessible_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/key_generated.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/README.md
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/accessible_generated.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/key_generated.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-qt-1.5.1/README.md:

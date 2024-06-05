@@ -1,0 +1,15 @@
+[package]
+name = "kursach"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+android-activity = { version = "0.6.0", features = ["native-activity"] }
+slint = { version = "1.5", features = ["backend-android-activity-05"] }
+
+[build-dependencies]
+slint-build = "1.5.1"

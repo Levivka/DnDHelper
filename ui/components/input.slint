@@ -1,0 +1,42 @@
+import "../fonts/zed-mono-extended.ttf";
+
+export component input inherits Rectangle {
+    in-out property <string> placeholder <=> text.text; 
+    out property <string> text <=> textInput.text; 
+
+
+    background: #FBF7F4;
+    border-radius: 5px;
+
+    VerticalLayout { 
+        alignment: center; 
+        padding-left: 16px; 
+        padding-right: 16px; 
+        
+        text := Text { 
+            color: #FE8A1F;
+            font-size: 15px;
+            visible: (!textInput.has-focus && textInput.text == "") ? true : false; 
+            font-family: "Zed Mono"; 
+        } 
+    }
+
+    VerticalLayout { 
+        padding-left: 16px; 
+        padding-right: 16px; 
+        textInput := TextInput { 
+            color: #FE8A1F;
+            font-size: 15px;
+            single-line: true;
+            font-family: "Zed Mono"; 
+            vertical-alignment: center;
+        } 
+    } 
+    
+    touchArea := TouchArea { 
+        clicked => { 
+            textInput.focus(); 
+        } 
+    } 
+
+}

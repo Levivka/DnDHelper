@@ -1,0 +1,92 @@
+
+import { mainButtons } from "button.slint";
+import { sidedown-bt } from "sidedown_button.slint";
+export component sidedown inherits Rectangle {
+    callback profile_select();
+    callback notes_select();
+    callback charlist_select();
+    callback dices_select();
+    callback settings_select();
+
+    in property <bool> profile_selected;
+    in property <bool> notes_selected;
+    in property <bool> charlist_selected;
+    in property <bool> dices_selected;
+    in property <bool> settings_selected;
+    
+    background: #f18e32;
+    
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+    buttons := HorizontalLayout {
+        width: root.width;
+        height: root.height * 50%;
+        
+        spacing: root.width * 2%;
+
+        alignment: center;
+
+        profile := sidedown-bt {
+            width: parent.width / 7;
+            height: parent.height;
+            
+            background: profile_selected ? #c46b19 : #f18e32;
+            
+            Image {
+                source: @image-url("../resources/user-edit.svg");
+                width: parent.width * 90%;
+                height: parent.height;
+            }
+        }
+
+        notes := sidedown-bt {
+            width: parent.width / 7;
+            height: parent.height;
+            
+            background: notes_selected ? #c46b19 : #f18e32;
+
+            Image {
+                source: @image-url("../resources/book.svg");
+                width: parent.width * 90%;
+            }
+        }
+        
+        charlist:= sidedown-bt {
+            width: parent.width / 7;
+            height: parent.height;
+            
+            background: charlist_selected ? #c46b19 : #f18e32;
+
+            Image {
+                source: @image-url("../resources/charlist.svg");
+                width: parent.width * 90%;
+            }
+        }
+        
+        dices := sidedown-bt {
+            width: parent.width / 7;
+            height: parent.height;
+            
+            background: dices_selected ? #c46b19 : #f18e32;
+
+            Image {
+                source: @image-url("../resources/dices.svg");
+                width: parent.width * 90%;
+            }
+        }
+        
+        settings:= sidedown-bt {
+            width: parent.width / 7;
+            height: parent.height;
+            
+            background: settings_selected ? #c46b19 : #f18e32;
+
+            Image {
+                source: @image-url("../resources/setting-2.svg");
+                width: parent.width * 90%;
+            }
+        }
+    }
+    
+}

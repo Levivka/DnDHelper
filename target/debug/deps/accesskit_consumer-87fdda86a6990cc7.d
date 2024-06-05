@@ -1,0 +1,10 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/libaccesskit_consumer-87fdda86a6990cc7.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/tree.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/node.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/filters.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/iterators.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/text.rs
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/accesskit_consumer-87fdda86a6990cc7.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/tree.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/node.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/filters.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/iterators.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/text.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/tree.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/node.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/filters.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/iterators.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/accesskit_consumer-0.17.1/src/text.rs:

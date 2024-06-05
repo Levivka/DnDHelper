@@ -1,0 +1,33 @@
+
+import { Button } from "std-widgets.slint";
+import "../fonts/MetalMania-Regular.ttf";
+
+export component sidedown_bt inherits Rectangle {
+    in-out property <string> text <=> text.text;
+    
+    callback clicked <=> touchArea.clicked;
+
+
+
+    border-radius: 10px;
+    border-color: touchArea.pressed ? #FBF7F4: #fbf7f400;
+    border-width: 2px;
+
+
+    animate background {
+        duration: 100ms;
+    }
+
+    animate border-color {
+         duration: 100ms;
+    }
+
+    touchArea:= TouchArea {}
+
+    text:= Text {
+        color: #FBF7F4;
+        font-size: 14px;
+        font-weight: 10;
+        font-family: "Metal Mania";
+    }
+}

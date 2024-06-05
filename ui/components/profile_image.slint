@@ -1,0 +1,22 @@
+export component profileImage inherits Rectangle {
+    in-out property <string> source_image;
+    
+    Rectangle {
+        border-color: red;
+        border-width: 2px;
+        border-radius: 360px;
+        background: @linear-gradient(45deg, #ca6e17, #fe8a1f);
+    }
+    
+    Rectangle {
+        background: @linear-gradient(45deg, #ca6e17, #fe8a1f);
+    }
+    
+    Image {
+        width: root.width * 90%;
+        height: root.height * 90%;
+        image-fit: contain;
+        horizontal-alignment: center;
+        source: @image-url("../resources/Logo.svg");
+    }
+}

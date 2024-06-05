@@ -1,0 +1,2 @@
+cargo:rustc-cfg=android_platform
+cargo:rustc-cfg=egl_backend

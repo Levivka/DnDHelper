@@ -1,0 +1,9 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/libunicode_segmentation-66942c599a9bdac1.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/grapheme.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/sentence.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/word.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/tables.rs
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/unicode_segmentation-66942c599a9bdac1.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/grapheme.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/sentence.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/word.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/tables.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/grapheme.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/sentence.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/word.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-segmentation-1.11.0/src/tables.rs:

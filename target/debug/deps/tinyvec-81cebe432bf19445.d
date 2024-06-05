@@ -1,0 +1,11 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/libtinyvec-81cebe432bf19445.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array/generated_impl.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec_drain.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/slicevec.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/tinyvec.rs
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/tinyvec-81cebe432bf19445.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array/generated_impl.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec_drain.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/slicevec.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/tinyvec.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/array/generated_impl.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/arrayvec_drain.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/slicevec.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinyvec-1.6.0/src/tinyvec.rs:

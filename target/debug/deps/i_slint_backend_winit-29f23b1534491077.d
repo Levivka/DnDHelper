@@ -1,0 +1,14 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/libi_slint_backend_winit-29f23b1534491077.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/winitwindowadapter.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/event_loop.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg/glcontext.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/sw.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/accesskit.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/README.md
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/i_slint_backend_winit-29f23b1534491077.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/winitwindowadapter.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/event_loop.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg/glcontext.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/sw.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/accesskit.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/README.md
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/winitwindowadapter.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/event_loop.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/femtovg/glcontext.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/renderer/sw.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/accesskit.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/i-slint-backend-winit-1.5.1/README.md:
+
+# env-dep:CARGO_PKG_VERSION=1.5.1

@@ -1,0 +1,12 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/liblibloading-30434f4f23e8da25.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/changelog.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/consts.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/util.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/error.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/safe.rs
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/libloading-30434f4f23e8da25.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/changelog.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/consts.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/util.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/error.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/safe.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/changelog.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/mod.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/mod.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/os/unix/consts.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/util.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/error.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libloading-0.8.3/src/safe.rs:

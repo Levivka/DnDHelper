@@ -1,0 +1,302 @@
+import { Button, VerticalBox, LineEdit, HorizontalBox, GridBox, Slider, ScrollView } from "std-widgets.slint";
+import { mainButtons } from "../components/button.slint";
+import { input } from "../components/input.slint";
+import "../fonts/MetalMania-Regular.ttf";
+import { activity-pattern } from "../components/activity_pattern.slint";
+import { textBox } from "../components/profile_text.slint";
+import { loginForm } from "login.slint";
+import { sidedown-bt } from "../components/sidedown_button.slint";
+
+export component MainWindow inherits Window {
+    callback login-check(string, string);
+    width: 400px;
+    height: 600px;
+
+    //JSON callbacks
+    callback addNote();
+
+    //Activities change callbacks
+    callback profile-select();
+    callback notes-select();
+    callback charlist-select();
+    callback dices-select();
+    callback settings-select();
+
+    //Activity select properties
+    in-out property <bool> profile_selected;
+    in-out property <bool> notes_selected;
+    in-out property <bool> charlist_selected;
+    in-out property <bool> dices_selected;
+    in-out property <bool> settings_selected;
+    in-out property <bool> login_checked;
+
+    in-out property <int> name; property <[int]> note_list: [1, 2, 4, 10, 213];
+
+    in-out property <[{id: int, header: string, content: string}]> note;
+
+    in-out property <int> notes_ammount;
+    loginForm := Rectangle {
+        visible: false;
+        background: @linear-gradient(45deg, #ca6e17, #fe8a1f);
+        // logoLT := VerticalBox {
+    
+        //     width: root.width * 30%;
+        //     height: root.height * 30%;
+    
+        //     Image {
+        //         image-fit: fill;
+        //         source: @image-url("../resources/Logo.svg");
+        //     }
+        // }
+    
+        
+        inputsLT := VerticalLayout {
+            padding-top: -root.height * 40%;
+            padding-left: root.width * 4%;
+            padding-right: root.width * 4%;
+            alignment: center;
+            spacing: root.height * 2%;
+            username := input {
+                height: parent.height * 9%;
+                width: parent.width * 90%;
+                placeholder: "Login";
+            }
+
+            password := input {
+                height: parent.height * 9%;
+                width: parent.width * 90%;
+                placeholder: "Password";
+            }
+        }
+
+        loginLT := VerticalBox {
+            padding-top: -parent.height * -20%;
+            padding: -parent.width * -20%;
+            alignment: center;
+            login := mainButtons {
+                background: login_checked ? red : black;
+                height: parent.height / 7;
+                text: "Login";
+                cliked => {
+                    root.login-check(login.text, password.text);
+                }
+            }
+        }
+
+        registerBox := VerticalBox {
+            alignment: end;
+            padding-left: root.width * 4%;
+            padding-bottom: root.width * 2%;
+            register := mainButtons {
+                width: parent.width * 30%;
+                height: parent.width * 20%;
+                text: "See this app\nfor the first time?";
+            }
+        }
+    }
+
+    profileForm := Rectangle {
+        visible: true;
+        background: @linear-gradient(45deg, #ca6e17, #fe8a1f);
+        sidedownLT := VerticalLayout {
+            alignment: end;
+            sidedownMenu := Rectangle {
+                width: parent.width;
+                height: parent.height * 15%;
+                visible: true;
+                background: #f18e32;
+                border-top-left-radius: 32px;
+                border-top-right-radius: 32px;
+                buttons := HorizontalLayout {
+                    width: parent.width;
+                    height: parent.height * 50%;
+                    spacing: parent.width * 2%;
+                    alignment: center;
+                    profile := sidedown-bt {
+                        width: parent.width / 7;
+                        height: parent.height;
+                        background: profile_selected ? #c46b19 : #f18e32;
+                        Image {
+                            source: @image-url("../resources/user-edit.svg");
+                            width: parent.width * 90%;
+                        }
+
+                        clicked => {
+                            root.profile_select();
+                            profile_selected = true;
+                            notes_selected = false;
+                            charlist_selected = false;
+                            dices_selected = false;
+                            settings_selected = false;
+                        }
+                    }
+
+                    notes := sidedown-bt {
+                        width: parent.width / 7;
+                        height: parent.height;
+                        background: notes_selected ? #c46b19 : #f18e32;
+                        Image {
+                            source: @image-url("../resources/book.svg");
+                            width: parent.width * 90%;
+                        }
+
+                        clicked => {
+                            root.notes_select();
+                            profile_selected = false;
+                            notes_selected = true;
+                            charlist_selected = false;
+                            dices_selected = false;
+                            settings_selected = false;
+                        }
+                    }
+
+                    charlist := sidedown-bt {
+                        width: parent.width / 7;
+                        height: parent.height;
+                        background: charlist_selected ? #c46b19 : #f18e32;
+                        Image {
+                            source: @image-url("../resources/charlist.svg");
+                            width: parent.width * 90%;
+                        }
+
+                        clicked => {
+                            root.charlist_select();
+                            profile_selected = false;
+                            notes_selected = false;
+                            charlist_selected = true;
+                            dices_selected = false;
+                            settings_selected = false;
+                        }
+                    }
+
+                    dices := sidedown-bt {
+                        width: parent.width / 7;
+                        height: parent.height;
+                        background: dices_selected ? #c46b19 : #f18e32;
+                        Image {
+                            source: @image-url("../resources/dices.svg");
+                            width: parent.width * 90%;
+                        }
+
+                        clicked => {
+                            root.dices_select();
+                            profile_selected = false;
+                            notes_selected = false;
+                            charlist_selected = false;
+                            dices_selected = true;
+                            settings_selected = false;
+                        }
+                    }
+
+                    settings := sidedown-bt {
+                        width: parent.width / 7;
+                        height: parent.height;
+                        background: settings_selected ? #c46b19 : #f18e32;
+                        Image {
+                            source: @image-url("../resources/setting-2.svg");
+                            width: parent.width * 90%;
+                        }
+
+                        clicked => {
+                            root.settings_select();
+                            profile_selected = false;
+                            notes_selected = false;
+                            charlist_selected = false;
+                            dices_selected = false;
+                            settings_selected = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        profileLT := VerticalLayout {
+            visible: false;
+            width: root.width;
+            height: root.height;
+            spacing: 20px;
+            alignment: start;
+            // profileImage {
+            //     width: root.height * 30%;
+            //     height: root.height * 30%;
+            //     Image {
+            //         source: @image-url("../resources/book.svg");
+            //     }
+            // } // TODO
+
+            profileInfo := VerticalBox {
+                nickname := textBox {
+                    horizontal-alignment: center;
+                    text: "Levik";
+                    font-size: 32px;
+                }
+
+                id := textBox {
+                    horizontal-alignment: center;
+                    text: "12345";
+                    font-size: 18px;
+                }
+            }
+
+            stats := VerticalBox {
+                spacing: 40px;
+                Characters := textBox {
+                    text: "Characters:";
+                    font-size: 24px;
+                }
+
+                adventures := textBox {
+                    text: "Adventures:";
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    notesLT := VerticalLayout {
+        width: root.width;
+        height: root.height;
+        spacing: 1px;
+        alignment: start;
+
+        textBox {
+            horizontal-alignment: center;
+            font-size: 24px;
+            text: "Notes";
+        }
+
+        
+
+
+        noteButtonLT := VerticalLayout {
+            padding-left: root.width * 90%;
+            addNote := mainButtons {
+                width: parent.width * 10%;
+                height: parent.width * 10%;
+                textBox {
+                    vertical-alignment: center;
+                    horizontal-alignment: center;
+                    text: "+";
+                    font-size: 24px;
+                }
+                border-radius: 360px;
+
+                cliked => {
+                    note_list[note_list.length + 1] = 1;
+                }
+            }
+        }
+
+        Flickable {
+            width: parent.width;
+            height: parent.height * 75%;
+            viewport-height: 900px;
+            
+            for note[idx] in note_list: textBox {
+                x: 10px;
+                y: idx * 20px;
+                text: "dawwdas";
+            }
+        }
+    }
+}

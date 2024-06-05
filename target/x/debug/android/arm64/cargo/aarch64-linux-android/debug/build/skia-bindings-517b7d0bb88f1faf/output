@@ -1,0 +1,25 @@
+cargo:rerun-if-env-changed=DOCS_RS
+cargo:rerun-if-env-changed=SKIA_DEBUG
+HOST: x86_64-apple-darwin
+cargo:rerun-if-env-changed=SKIA_SOURCE_DIR
+cargo:rerun-if-env-changed=FORCE_SKIA_BUILD
+cargo:rerun-if-env-changed=FORCE_SKIA_BINARIES_DOWNLOAD
+TRYING TO DOWNLOAD AND INSTALL SKIA BINARIES: 0.71.0/65d69e3427e3a085d102-aarch64-linux-android-gl-textlayout
+cargo:rerun-if-env-changed=SKIA_BINARIES_URL
+  FROM: https://github.com/rust-skia/skia-binaries/releases/download/0.71.0/skia-binaries-65d69e3427e3a085d102-aarch64-linux-android-gl-textlayout.tar.gz
+using curl to download https://github.com/rust-skia/skia-binaries/releases/download/0.71.0/skia-binaries-65d69e3427e3a085d102-aarch64-linux-android-gl-textlayout.tar.gz
+curl success
+UNPACKING ARCHIVE INTO: /Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/build/skia-bindings-517b7d0bb88f1faf/out/skia
+DOWNLOAD AND INSTALL SUCCEEDED
+cargo:rustc-link-search=/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/build/skia-bindings-517b7d0bb88f1faf/out/skia
+cargo:rustc-link-lib=static=skparagraph
+cargo:rustc-link-lib=static=skshaper
+cargo:rustc-link-lib=static=skunicode
+cargo:rustc-link-lib=static=skia
+cargo:rustc-link-lib=static=skia-bindings
+cargo:rustc-link-lib=log
+cargo:rustc-link-lib=android
+cargo:rustc-link-lib=c++_static
+cargo:rustc-link-lib=c++abi
+cargo:rustc-link-lib=EGL
+cargo:rustc-link-lib=GLESv2

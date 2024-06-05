@@ -1,0 +1,24 @@
+import { sidedown } from "sidedown_menu.slint";
+export component activity_pattern inherits Rectangle {
+    in property <bool> profile_selected;
+    in property <bool> notes_selected;
+    in property <bool> charlist_selected;
+    in property <bool> dices_selected;
+    in property <bool> settings_selected;
+
+    background: @linear-gradient(45deg, #ca6e17, #fe8a1f);
+
+    sidedownMenu := VerticalLayout {
+        alignment: end;
+        padding-top: root.width;
+
+        sidedown {
+            profile_selected: profile_selected;
+            notes_selected: notes_selected;
+            charlist_selected: charlist_selected;
+            dices_selected: dices_selected;
+            settings_selected: settings_selected;
+            height: root.height * 15%;
+        }
+    }
+}

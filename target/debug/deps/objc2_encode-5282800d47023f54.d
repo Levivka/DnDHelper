@@ -1,0 +1,10 @@
+/Users/levik/Downloads/kursach-template/target/debug/deps/libobjc2_encode-5282800d47023f54.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding_box.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/helper.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/parse.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/static_str.rs
+
+/Users/levik/Downloads/kursach-template/target/debug/deps/objc2_encode-5282800d47023f54.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding_box.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/helper.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/parse.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/static_str.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/encoding_box.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/helper.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/parse.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/objc2-encode-4.0.1/src/static_str.rs:

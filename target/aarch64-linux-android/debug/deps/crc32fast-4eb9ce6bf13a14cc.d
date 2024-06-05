@@ -1,0 +1,11 @@
+/Users/levik/Desktop/rust/DnDHelper/target/aarch64-linux-android/debug/deps/libcrc32fast-4eb9ce6bf13a14cc.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/levik/Desktop/rust/DnDHelper/target/aarch64-linux-android/debug/deps/libcrc32fast-4eb9ce6bf13a14cc.rlib: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/levik/Desktop/rust/DnDHelper/target/aarch64-linux-android/debug/deps/crc32fast-4eb9ce6bf13a14cc.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/baseline.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/combine.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/specialized/mod.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crc32fast-1.4.0/src/table.rs:

@@ -1,0 +1,11 @@
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/libfloat_cmp-1bebcaf99d85ae62.rmeta: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/macros.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps_eq.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/eq.rs
+
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/libfloat_cmp-1bebcaf99d85ae62.rlib: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/macros.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps_eq.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/eq.rs
+
+/Users/levik/Downloads/kursach-template/target/x/debug/android/arm64/cargo/aarch64-linux-android/debug/deps/float_cmp-1bebcaf99d85ae62.d: /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/lib.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/macros.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps_eq.rs /Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/eq.rs
+
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/lib.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/macros.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/ulps_eq.rs:
+/Users/levik/.cargo/registry/src/index.crates.io-6f17d22bba15001f/float-cmp-0.9.0/src/eq.rs:

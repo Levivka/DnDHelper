@@ -1,0 +1,31 @@
+
+import { Button } from "std-widgets.slint";
+import "../fonts/MetalMania-Regular.ttf";
+
+export component mainButtons inherits Rectangle {
+    in-out property <string> text <=> text.text;
+
+    callback cliked <=> touchArea.clicked;
+
+    background: touchArea.pressed ? @linear-gradient(0deg,#ce1f0f,#F41501) : #F41501;
+    border-radius: 10px;
+    border-color: touchArea.pressed ? #bbbbbb: #FBF7F4;
+    border-width: 2px;
+
+
+    animate background {
+        duration: 100ms;
+    }
+
+    animate border-color {
+         duration: 100ms;
+    }
+
+    touchArea:= TouchArea {}
+    text:= Text {
+        color: #FBF7F4;
+        font-size: 14px;
+        font-weight: 10;
+        font-family: "Metal Mania";
+    }
+}
